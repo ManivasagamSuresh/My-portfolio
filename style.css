@@ -1,7 +1,8 @@
+/* --------------------OverAll------------------------ */
 *{
     margin: 0;
-    padding: 0%;
-    font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
     box-sizing: border-box;
   }
   body{
@@ -9,9 +10,16 @@
     color: antiquewhite;
     
   }
+
+  /* ---------------------------intro------------------ */
+  .boxintro{
+    margin-top: 0px;
+    margin-bottom:0px;
+  }
   
+  /* ------------------------navigation bar-------------------------------- */
   .containernav{
-    padding:10px 0px;
+    padding:10px 35px;
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
@@ -19,7 +27,7 @@
   nav ul li{
     display:inline-block;
     list-style: none;
-    margin:10px 25px;
+    margin:10px 35px ;
 }
 nav ul li a{
     color: #fff;
@@ -27,9 +35,12 @@ nav ul li a{
     font-size: 25px;
     position: relative;
 }
+
 nav ul li a:hover{
     color:#fff ;
 }
+/* -----------------------hover animation for nav-------------------------- */
+
 nav ul li a::after{
     content:"";
     width: 0;
@@ -46,6 +57,7 @@ nav ul li a:hover::after{
 
 }
 
+/* --------------------intro info----------------- */
 
     #home-intro{
       position: relative;
@@ -65,7 +77,7 @@ nav ul li a:hover::after{
     }
     
 
-
+/* --------------------fullstack animation--------------------------- */
 
     .animate-character{
         color: #fff;
@@ -92,6 +104,8 @@ nav ul li a:hover::after{
 }
 
 
+/* -------------------homeicons----------------- */
+
 
 .homeicons{ 
   display: inline;
@@ -105,18 +119,76 @@ nav ul li a:hover::after{
 }
 
 .boxintro{
-  /* display: flex;
-  flex-wrap: wrap; */
+ 
   position: relative;
-  left: 100px;
+  
   top: 50px;
   margin: 20px;
 }
 
 #image1{
   margin:10px ;  
+  padding-left:30px ;
 }
 
 
 
 /* ------------------about----------------- */
+#about-title{
+  height: 600px;
+}
+#about-title span h1{
+  margin-top: 80px;
+  text-align: center;
+  font-size: 40px;
+  color:#C0C0C0;
+}
+.about-info{
+  font-size: 20px;
+  text-indent:0px ;
+  padding:10px 50px ;
+  word-spacing: 5px;
+  color: #C0C0C0;
+}
+
+/* ------------------tab------------------------ */
+
+.tab-titles{
+  display: flex;
+  margin: 20px 0 40px;
+}
+.tab-links{
+  margin-right: 100px;
+  font-size: 23px;
+  font-weight: 500;
+  cursor: pointer;
+  position: relative;
+}
+.tab-links::after{
+  content: "";
+  width: 0;
+  height : 3px;
+  background:#FFc40a ;
+  position: absolute;
+  left: 0;
+  bottom:-8px;
+  transition: 0.5s;
+}
+.tab-links.active-link::after{
+  width:50%;
+}
+
+.tab-contents ul li {
+  list-style: none;
+  margin: 10px 0;
+}
+.tab-contents ul li span{
+  color: #FFD700	;
+  font-size: 15px;
+}
+.tab-contents{
+  display: none;
+}
+.tab-contents.active-tab{
+  display: block;
+}

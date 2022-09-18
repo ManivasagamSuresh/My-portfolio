@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
    <!-- --------------------------------------navigation bar----------------------------- -->
   <div class="containernav" >     
         <nav class="navbar">
@@ -43,16 +44,72 @@
       </div>
     </div>
     </div>
-  </div>
-<!-- ----------------about---------------- -->
-<div id="about">
+  </div> 
+<!-- ----------------------about------------------------------- -->
+<div id="about-title"><span><h1>About</h1></span>
+<p class="about-info">I am a self-learner, curious and enthusiastic in learning new things. Seeking a perfect role to enhance and explore my technical knowledge  in full stack development.</p>
+
+<!-- ----------------------tabs----------------------------------- -->
   <div class="container">
     <div class="row">
-      <div class="about-col-1"></div>
-      <div class="about-col-2"></div>
-    </div>
-  </div>
-</div>
+        <div class="about-col-12">
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
+            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+          </div>
+          </div>
 
+          <div class="col-12">
+          <div class="tab-contents active-tab" id="Education">
+            <ul>
+              <li><span>SSLC: 96.6%</span><br>AKNU S.Sundar Matric Hr.sec School,Madurai.</li>
+              <li><span>HSC: 93.5%</span><br>CEOA Matric Hr.sec School,Madurai.</li>
+              <li><span>BE(Automobile): 7.1 cgpa</span><br>PSG College of Technology,Coimbatore.</dt>     
+            </ul>
+          </div>
+          
+
+          <div class="tab-contents" id="Experience">
+            <ul>
+              <li><span>Dec'21-July'22</span><br>GET-Program Management ,Violin Technologies,Chennai</li>
+              <li><span>Dec'20-june'21</span><br>Bussiness Development Associate ,Think & Learn Private Ltd,Coimbatore</li>
+            </ul>
+          </div>
+
+          <div class="tab-contents" id="skills">
+            <dl>
+              <dt>SSLC: 96.6%</dt>
+              <dd>AKNU S.Sundar Matric Hr.sec School,Madurai</dd>
+              <dt>HSC: 93.5%</dt>
+              <dd>CEOA Matric Hr.sec School,Madurai</dd>
+              <dt>BE(Automobile): 7.1 cgpa</dt>
+              <dd>PSG College of Technology,Coimbatore</dd>
+            </dl>
+          </div>  
+          </div>
+        
+        </div>
+    </div>
+ </div> 
+<!-- ----------------------------javaScript---------------------- -->
+<script>
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+console.log(tabcontents);
+console.log(tablinks);
+function opentab(tabname){
+  for(tablink of tablinks){
+    tablink.classList.remove("active-link");
+  }
+  for(tabcontent of tabcontents){
+    tabcontent.classList.remove("active-tab");
+  }
+  event.currentTarget.classList.add("active-link");
+  document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+</script>
 </body>
 </html>
