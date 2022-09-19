@@ -42,6 +42,25 @@ nav ul li a{
 nav ul li a:hover{
     color:#fff ;
 }
+#navbut {
+  background-color: #FFc40a;
+  color: #C0C0C0;
+}
+#link1{
+  color: #C0C0C0;
+}
+#link2{
+  color: #C0C0C0;
+}
+#link3{
+  color: #C0C0C0;
+}
+#link4{
+  color: #C0C0C0;
+}
+#link5{
+  color: #C0C0C0;
+}
 /* -----------------------hover animation for nav-------------------------- */
 
 nav ul li a::after{
