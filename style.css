@@ -180,12 +180,61 @@ nav ul li a:hover::after{
   word-spacing: 5px;
   color: #C0C0C0;
 }
+.Tech{
+  padding: 20px 0px 30px;
+}
+.softskills.container{
+  margin-top: 60px;
+}
 
+.softskills.container div ul li{
+list-style-type: disc;
+margin:20px 0px 0px 30px;
+
+}
+
+
+/* ---------------tecnology icons and its animation---------------------- */
+
+.gridicons{
+  
+  display: grid;
+  grid-template-columns: repeat(4,150px) ;
+  grid-template-rows: auto;
+  grid-column-gap:50px ;
+  
+}
+.gridicons img{
+  width: 90px;
+  height: auto;
+  
+}
+
+#skills img{
+  padding-right: 30px;
+  transition: 1s;
+  animation: icons 1s linear 1;
+  
+}
+
+@keyframes icons{
+  
+  from{
+    transform: translateY(100vh);
+   }
+   to{
+    transform:translateY(-10px);
+    
+   }
+  }
+  
+  
 /* ------------------tab------------------------ */
 
 .tab-titles{
   display: flex;
   margin: 20px 0 40px;
+  color:#C0C0C0
 }
 .tab-links{
   margin-right: 100px;
@@ -223,32 +272,8 @@ nav ul li a:hover::after{
   display: block;
 }
 
+
+
+
 /* ----------------------CSS FOR SMALL SCREEN--------------------------- */
-/* .navicon{
-  display: none;
-}
-@media screen and (max-width:600px){
-  
-  .navicon{
-    display: block;
-    font-size: 25px;
-  }
-  nav ul{
-    background: green !important;
-    position: absolute !important;
-    position: fixed !important;
-    
-    top: 0;
-    right: 0;
-    width: 150px;
-    height: 100vh;
-    padding-top: 50px;
-    }
-    .animate-character::after{
-      width: 0;
-      height: 0;
-      
-    }
-    
-    }
-   */
+
