@@ -185,6 +185,8 @@ nav ul li a:hover::after{
 }
 .softskills.container{
   margin-top: 60px;
+  margin-bottom: 50px;  
+
 }
 
 .softskills.container div ul li{
@@ -192,7 +194,6 @@ list-style-type: disc;
 margin:20px 0px 0px 30px;
 
 }
-
 
 /* ---------------tecnology icons and its animation---------------------- */
 
@@ -272,8 +273,84 @@ margin:20px 0px 0px 30px;
   display: block;
 }
 
+/* -------------------projects--------------- */
+.projects-heading{
+  margin-top: 60px;
+  text-align: center;
+  color:#C0C0C0 ;
+}
+.projects-des{
+  margin:40px ;
+}
+.card-body{
+  color: #080808;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.card{
+  margin-bottom: 50px;
+  border-radius: 15px;
+  overflow: hidden;
+}
 
+/* ----------------contact---------------------- */
 
+#line{
+  background: #FFc40a;
+  height: 1px;
+  opacity: 0.3;
+  width: 75vw;
+  margin-left: 120px;
+ }
+ input{
+  margin-bottom: 30px;
+  width: 500px;
+  height: 35px;
+  border-radius: 5px;
+  border-color:  #FFc40a;
+  color: grey;
+ }
+ textarea{
+  border-radius: 5px;
+  border-color:  #FFc40a;
+  color: grey;
+  /* padding-bottom: 20px; */
+  margin-bottom: 20px;
+ }
 
-/* ----------------------CSS FOR SMALL SCREEN--------------------------- */
+ .contact-r{
+  padding-left: 200px;
+  margin-top: 10px;
+
+}
+submit{
+  border: 1px solid #FFc40a;
+  padding: 10px;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 400px;
+}
+
+.contact-l-icons{
+  margin-top:30px;
+}
+/* .contact-r-icons a i{
+  margin-top: 30px;
+} */
+.contact-l-icons i{
+  margin-top:20px ;
+} 
+.contact-l{
+  padding-top: 80px;
+}
+
+/* -----------------credits--------------- */
+#credits{
+  background-color: #af9439;
+  text-align: center;
+  margin-top: 50px;
+  /* color: #C0C0C0; */
+  color: #080808;
+  font-family: 'Times New Roman', Times, serif\
+
+}
 
