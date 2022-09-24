@@ -360,9 +360,9 @@ margin:20px 0px 0px 30px;
 }
 
 #msg{
-  position: absolute;
-  left: 220px;
-  top: 500px;
+  /* position: absolute; */
+  /* left: 220px; */
+  /* top: 500px; */
   color: #af9439;
 }
 
