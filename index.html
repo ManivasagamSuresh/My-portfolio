@@ -14,7 +14,7 @@
    <!-- --------------------------------------navigation bar----------------------------- -->
   <div class="containernav">     
         <nav class="navbar navbar-expand-md navbar-light ">
-          <button id="navbut" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button id="navbut" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -45,7 +45,7 @@
       </div>
       <div class="col-md-6">
         <div id="image1">
-        <img src="programmer-cartoon1-final.jpg" alt="" height="400px" width="auto">
+        <img src="programmer-cartoon1-final.jpg" alt="" height="65%" width="100%">
         </div>
       </div>
       </div>
@@ -55,21 +55,55 @@
 </div>
 <!-- ----------------------about------------------------------- -->
 <div id="about">
-<div id="about-title"><span><h1>About</h1></span>
-<p class="about-info">I am a self-learner, curious and enthusiastic in learning new things. Seeking a perfect role to enhance and explore my technical knowledge  in full stack development.</p>
+<div class="about-title container"><span><h1 class="display-4">About</h1></span>
+<p class="about-info container">I am a self-learner, curious and enthusiastic in learning new things. Seeking a perfect role to enhance and explore my technical knowledge  in full stack development.</p>
 
 <!-- ----------------------tabs----------------------------------- -->
   <div class="container">
     <div class="row">
-        <div class="about-col-12">
+        <div class="about col-md-12">
           <div class="tab-titles">
+            
             <p class="tab-links active-link" onclick="opentab('Education')">Education</p>
             <p class="tab-links" onclick="opentab('Experience')">Experience</p>
-            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links  " onclick="opentab('skills')">Skills</p>
           </div>
           </div>
 
-          <div class="col-12">
+          <div class="col-md-12">
+
+            <div class="tab-contents " id="skills" >
+              <h4 class="Tech">Technologies and Tools :</h4>
+              <div class="gridicons">
+              <img src="images/html.svg" alt="" width="80px" id="htmlicon">
+              <img src="images/JS.svg" alt="" width="80px" id="jsicon">
+              <img src="images/css.svg" alt="" width="80px" id="cssicon">
+              <img src="images/bootstrap.svg" alt="" width="80px" id="bootstrapicon" >
+              </div>
+              <div class="softskills container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <h4 class="softskills-P">Soft Skills :</h4>
+                    <ul style="list-style-type: disc;">
+                      <li>Time Management</li>
+                      <li>Adaptability</li>
+                      <li>Team Work</li>
+                    </ul>
+                  </div>  
+                  <div class="col-md-6">
+                    <div class="softskills-Lbox">
+                    <h4 class="softskills-L">Languages Known :</h4>
+                    <ul style="list-style-type: disc;">
+                      <li>English</li>
+                      <li>Tamil</li>
+                    </ul>
+                    </div>
+                  </div>    
+                </div>
+              </div>
+            </div>
+
+
           <div class="tab-contents active-tab" id="Education">
             <ul>
               <li><span>SSLC: 96.6%</span><br>AKNU S.Sundar Matric Hr.sec School,Madurai.</li>
@@ -86,36 +120,7 @@
             </ul>
           </div>
 
-          <div class="tab-contents" id="skills" >
-            <h4 class="Tech">Technologies and Tools :</h4>
-            <div class="gridicons">
-            <img src="images/html.svg" alt="" width="80px" id="htmlicon">
-            <img src="images/JS.svg" alt="" width="80px" id="jsicon">
-            <img src="images/css.svg" alt="" width="80px" id="cssicon">
-            <img src="images/bootstrap.svg" alt="" width="80px" id="bootstrapicon" >
-            </div>
-            <div class="softskills container">
-              <div class="row">
-                <div class="col-6">
-                  <h4 class="softskills-P">Soft Skills :</h4>
-                  <ul style="list-style-type: disc;">
-                    <li>Time Management</li>
-                    <li>Adaptability</li>
-                    <li>Team Work</li>
-                  </ul>
-                </div>  
-                <div class="col-6">
-                  <div class="softskills-Lbox">
-                  <h4 class="softskills-L">Languages Known :</h4>
-                  <ul style="list-style-type: disc;">
-                    <li>English</li>
-                    <li>Tamil</li>
-                  </ul>
-                  </div>
-                </div>    
-              </div>
-            </div>
-          </div>  
+            
           </div>
         
         </div>
@@ -127,11 +132,11 @@
 <div class="container projects">
   <div class="row">
     
-    <div class="col-12">
-      <h1 class="projects-heading">Projects</h1>
+    <div class="col-md-12">
+      <h1 class="projects-heading display-3">Projects</h1>
       <h4 class="projects-des">What I Built</h4>
     </div>
-    <div class="col-4">
+    <div class="col-md-4">
       <div  class="card" style="width: 18rem;">
         <img src="images/Projects-yellow.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -141,7 +146,7 @@
         </div>
       </div></div>
 
-      <div class="col-4">
+      <div class="col-md-4">
       <div class="card" style="width: 18rem;">
         <img src="images/Projects-yellow.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -151,7 +156,7 @@
         </div>
       </div></div>
 
-      <div class="col-4">
+      <div class="col-md-4">
       <div class="card" style="width: 18rem;">
         <img src="images/Projects-yellow.jpg" class="card-img-top" alt="...">
         <div class="card-body">
@@ -171,7 +176,7 @@
 <div id="contact">
 <div class="container">
   <div class="row">
-    <div class="col-4">
+    <div class="col-md-5">
       <div class="contact-l">
       <h1>Connect With Me</h1>
       <div class="contact-l-icons">
@@ -181,17 +186,18 @@
       </div>
     </div>
     </div>
-    <div class="col-8">
+    <div class="col-md-7">
       <div class="contact-r">
         <h1 class="display-4">Say Hi</h4>
-      <form>
-        <input type="text" value="Name*" required><br>
-        <input type="email" value="Email*" required><br>
-        <textarea name="" id="" cols="60" rows="7" required>Your Message*</textarea>
-        <submit class="submit">Send  <i class="fa fa-paper-plane" aria-hidden="true" style="color:#FFc40a"></i>
-        </submit>
+      <form name="submit-to-google-sheet">
+        <input type="text" name="Name" value="Name*" required><br>
+        <input type="email" name="Email" value="Email*" required><br>
+        <textarea name="Message" name="" id="" cols="50" rows="7" required>Your Message*</textarea>
+        <br><button type="submit" class="submit">Send  <i class="fa fa-paper-plane" aria-hidden="true" style="color:#fff"></i></button>
       </form>
+      
     </div>
+    <span id="msg"></span>
     </div>
   </div>
 </div>
@@ -219,6 +225,21 @@ function opentab(tabname){
 }
 
 
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwh7c5CraHTEa_sHxl-5aCiBCAZKCtIADCIqHK22QsBH6OdllkPXVXjLSJCp2JEvpA/exec'
+  const form = document.forms['submit-to-google-sheet']
+  let msg =document.getElementById('msg')
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response =>{ msg.innerText="Message sent successfully"
+      setTimeout(()=>{
+        msg.innerHTML="";
+      },2000)
+    })
+      .catch(error => console.error('Error!', error.message))
+  })
 </script>
 
 <!-- ----------------------Bootstrap Js------------------ -->
