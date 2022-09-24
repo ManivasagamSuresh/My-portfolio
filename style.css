@@ -61,6 +61,10 @@ nav ul li a:hover{
 #link5{
   color: #C0C0C0;
 }
+
+html{
+  scroll-behavior: smooth;
+}
 /* -----------------------hover animation for nav-------------------------- */
 
 nav ul li a::after{
@@ -322,12 +326,12 @@ margin:20px 0px 0px 30px;
   margin-top: 10px;
 
 }
-submit{
+.submit{
   border: 1px solid #FFc40a;
   padding: 10px;
   border-radius: 5px;
   color: #fff;
-  margin-left: 400px;
+  /* margin-left: 400px; */
 }
 
 .contact-l-icons{
