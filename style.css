@@ -64,7 +64,9 @@ nav ul li a:hover{
 
 html{
   scroll-behavior: smooth;
+  /* overflow: hidden; */
 }
+
 /* -----------------------hover animation for nav-------------------------- */
 
 nav ul li a::after{
