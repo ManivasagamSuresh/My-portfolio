@@ -64,7 +64,7 @@ nav ul li a:hover{
 
 html{
   scroll-behavior: smooth;
-  /* overflow: hidden; */
+  
 }
 
 /* -----------------------hover animation for nav-------------------------- */
@@ -164,7 +164,7 @@ nav ul li a:hover::after{
 
 #image1{
   margin:10px ;  
-  /* padding-left:30px ; */
+  
 }
 #home-intro{
   padding-top:100px;
@@ -173,9 +173,7 @@ nav ul li a:hover::after{
 
 
 /* ------------------about----------------- */
-/* .about-title{
-  height: 600px;
-} */
+
 #about{
   margin-top: 220px;
 }
@@ -210,13 +208,7 @@ margin:20px 0px 0px 30px;
 /* ---------------tecnology icons and its animation---------------------- */
 
 .gridicons{
-  
-  /* display: grid;
-  grid-template-columns: repeat(4,25vw) ;
-  grid-template-rows: auto;
-  grid-column-gap:15% ; */
-  width: 80vw;
-  
+ width: 80vw; 
 }
 
 
@@ -281,16 +273,13 @@ margin:20px 0px 0px 30px;
 }
 .tab-contents{
   display: none;
-  /* visibility: hidden; */
 }
 .tab-contents.active-tab{
   display: block;
-  /* visibility: visible; */
 }
 
 /* -------------------projects--------------- */
 .projects-heading{
-  /* margin-top: 30px; */
   text-align: center;
   color:#C0C0C0 ;
 }
@@ -333,17 +322,11 @@ margin:20px 0px 0px 30px;
   border-radius: 5px;
   border-color:  #FFc40a;
   color: grey;
-  /* padding-bottom: 20px; */
   margin-bottom: 20px;
  }
 
  .contact-r{
-  /* padding-left: 15vw; */
-  /* display: flex;
-  justify-content: end; */
   margin-top: 70px;
-  /* float: right; */
-
 }
 .submit{
   border: 1px solid #FFc40a;
@@ -351,15 +334,11 @@ margin:20px 0px 0px 30px;
   border-radius: 5px;
   background-color: #af9439;
   color: #fff;
-  /* margin-left: 400px; */
 }
 
 .contact-l-icons{
   margin-top:30px;
 }
-/* .contact-r-icons a i{
-  margin-top: 30px;
-} */
 .contact-l-icons i{
   margin-top:20px ;
 } 
@@ -368,9 +347,6 @@ margin:20px 0px 0px 30px;
 }
 
 #msg{
-  /* position: absolute; */
-  /* left: 220px; */
-  /* top: 500px; */
   color: #af9439;
 }
 
@@ -379,7 +355,6 @@ margin:20px 0px 0px 30px;
   background-color: #af9439;
   text-align: center;
   margin-top: 120px;
-  /* color: #C0C0C0; */
   color: #080808;
   font-family: 'Times New Roman', Times, serif\
 
