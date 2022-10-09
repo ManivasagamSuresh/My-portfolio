@@ -360,3 +360,12 @@ margin:20px 0px 0px 30px;
 
 }
 
+#preloader {
+  background: #000 url(images/loader1.gif) no-repeat center;
+  height: 100vh;
+  width: 100%;
+  position:fixed;
+  z-index: 100;  
+  transition:2s;
+}
+
