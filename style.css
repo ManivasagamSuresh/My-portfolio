@@ -208,11 +208,15 @@ margin:20px 0px 0px 30px;
 /* ---------------tecnology icons and its animation---------------------- */
 
 .gridicon1{
- width: 90vw; 
+ width: 80vw; 
+}
+.gridicon1 img{
+  width: 5em;
+  margin-bottom: 1.5em;
 }
 .gridicon1 span{
   color :#C0C0C0;
-  margin-left: 20px;
+  margin-left: 1em;
 }
 
 .gridicon1 div{
@@ -220,6 +224,7 @@ margin:20px 0px 0px 30px;
   margin-right: 8vw;
   margin-top: 25px;
   transition: 1s;
+  
    
 }
 .gridicon1 {
@@ -247,9 +252,13 @@ margin:20px 0px 0px 30px;
   .gridicon2{
     width: 80vw; 
    }
+   .gridicon2 img{
+    width: 5em;
+    margin-bottom: 1.5em;
+  }
    .gridicon2 span{
     color :#C0C0C0;
-    margin-left: 20px;
+    margin-left: 1em;
   }
    
 .gridicon2 div{
@@ -283,9 +292,13 @@ margin:20px 0px 0px 30px;
      .gridicon3{
       width: 80vw; 
      }
+     .gridicon3 img{
+      width: 5em;
+      margin-bottom: 1.5em;
+    }
      .gridicon3 span{
       color :#C0C0C0;
-      margin-left: 20px;
+      margin-left: 1em;
     }    
      
      
