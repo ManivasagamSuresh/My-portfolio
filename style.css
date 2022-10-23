@@ -208,11 +208,11 @@ margin:20px 0px 0px 30px;
 /* ---------------tecnology icons and its animation---------------------- */
 
 .gridicon1{
- width: 80vw; 
+ width: 85vw; 
 }
 .gridicon1 img{
-  width: 5em;
-  margin-bottom: 1.5em;
+  width: 4.8em;
+  margin-bottom: 2.5em;
 }
 .gridicon1 span{
   color :#C0C0C0;
@@ -250,7 +250,7 @@ margin:20px 0px 0px 30px;
   
 
   .gridicon2{
-    width: 80vw; 
+    width: 85vw; 
    }
    .gridicon2 img{
     width: 5em;
@@ -260,7 +260,13 @@ margin:20px 0px 0px 30px;
     color :#C0C0C0;
     margin-left: 1em;
   }
+  .gridicon2 #mongoDB span{
+    margin-left: 0.5em;
    
+  }  
+  .gridicon2 #mongoDB{
+    margin-right: 6vw;
+  }
 .gridicon2 div{
   display: inline;
   margin-right: 8vw;
@@ -290,7 +296,7 @@ margin:20px 0px 0px 30px;
 
 
      .gridicon3{
-      width: 80vw; 
+      width: 85vw; 
      }
      .gridicon3 img{
       width: 5em;
