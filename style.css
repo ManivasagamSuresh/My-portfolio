@@ -247,10 +247,15 @@ margin:20px 0px 0px 30px;
    }
   }
   
-
-  .gridicon2{
+  .gridicon2 {
     width: 85vw; 
-   }
+    margin-bottom: 50px; 
+    margin-top: 25px;
+    transition: 1s;
+    animation: icon2 2s linear 1;
+    
+  }
+ 
    .gridicon2 img{
     width: 7vw;
     margin-bottom: 1.5em;
@@ -263,7 +268,7 @@ margin:20px 0px 0px 30px;
     margin-left: 0.5em;
    
   }  
-  .gridicon2 #mongoDB{
+  .gridicon2#mongoDB{
     margin-right: 6vw;
   }
 .gridicon2 div{
@@ -273,13 +278,7 @@ margin:20px 0px 0px 30px;
   transition: 1s;
    
 }
-.gridicon2 {
-  margin-bottom: 50px; 
-  margin-top: 25px;
-  transition: 1s;
-  animation: icon2 2s linear 1;
-  
-}
+
     
    
    @keyframes icon2{
@@ -294,9 +293,14 @@ margin:20px 0px 0px 30px;
      }
 
 
-     /* .gridicon3{
+     .gridicon3{
       width: 85vw; 
-     } */
+      margin-bottom: 70px; 
+  margin-top: 25px;
+  transition: 1s;
+  animation: icon3 3s linear 1;
+  
+     }
      .gridicon3 img{
       width: 7vw;
       margin-bottom: 1.5em;
@@ -314,13 +318,7 @@ margin:20px 0px 0px 30px;
   transition: 1s;
    
 }
-.gridicon3 {
-  margin-bottom: 70px; 
-  margin-top: 25px;
-  transition: 1s;
-  animation: icon3 3s linear 1;
-  
-}
+
       
      
      @keyframes icon3{
@@ -347,10 +345,13 @@ margin:20px 0px 0px 30px;
 }
 .tab-links{
   margin-right: 15%;
-  font-size: 23px;
-  font-weight: 500;
+  font-size: 1.5em;
+  font-weight: 400;
   cursor: pointer;
   position: relative;
+}
+.tab-links.skills{
+margin-right: 0px;
 }
 .tab-links::after{
   content: "";
