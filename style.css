@@ -180,7 +180,7 @@ nav ul li a:hover::after{
 .about-title span h1{
   margin-top: 40px;
   text-align: center;
-  font-size: 4 0px;
+  font-size: 40px;
   color:#C0C0C0;
 }
 .about-info{
@@ -208,10 +208,16 @@ margin:20px 0px 0px 30px;
 /* ---------------tecnology icons and its animation---------------------- */
 
 .gridicon1{
- width: 85vw; 
+ /* width: 85vw;  */
+  margin-bottom: 50px; 
+  margin-top: 25px;
+  transition: 1s;
+  
+  animation: icon1 1s linear 1;
 }
+
 .gridicon1 img{
-  width: 4.8em;
+  width: 7vw;
   margin-bottom: 2.5em;
 }
 .gridicon1 span{
@@ -221,18 +227,11 @@ margin:20px 0px 0px 30px;
 
 .gridicon1 div{
   display: inline;
-  margin-right: 8vw;
+  margin-right: 5vw;
   margin-top: 25px;
   transition: 1s;
   
    
-}
-.gridicon1 {
-  margin-bottom: 50px; 
-  margin-top: 25px;
-  transition: 1s;
-  animation: icon1 1s linear 1;
-  
 }
 
 
@@ -253,7 +252,7 @@ margin:20px 0px 0px 30px;
     width: 85vw; 
    }
    .gridicon2 img{
-    width: 5em;
+    width: 7vw;
     margin-bottom: 1.5em;
   }
    .gridicon2 span{
@@ -269,7 +268,7 @@ margin:20px 0px 0px 30px;
   }
 .gridicon2 div{
   display: inline;
-  margin-right: 8vw;
+  margin-right: 5vw;
   margin-top: 25px;
   transition: 1s;
    
@@ -289,17 +288,17 @@ margin:20px 0px 0px 30px;
        transform: translateY(100vh);
       }
       to{
-       transform:translateY(-20px);
+       transform:translateY(-10px);
        
       }
      }
 
 
-     .gridicon3{
+     /* .gridicon3{
       width: 85vw; 
-     }
+     } */
      .gridicon3 img{
-      width: 5em;
+      width: 7vw;
       margin-bottom: 1.5em;
     }
      .gridicon3 span{
@@ -310,7 +309,7 @@ margin:20px 0px 0px 30px;
      
 .gridicon3 div{
   display: inline;
-  margin-right: 8vw;
+  margin-right: 5vw;
   margin-top: 25px;
   transition: 1s;
    
@@ -330,7 +329,7 @@ margin:20px 0px 0px 30px;
          transform: translateY(100vh);
         }
         to{
-         transform:translateY(-20px);
+         transform:translateY(-10px);
          
         }
        }
